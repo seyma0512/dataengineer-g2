@@ -108,3 +108,76 @@ def convertir_usd(monto: float, moneda: str, tasa: float = 3.75):
 
 total_usd = convertir_usd(ventas_crudas[0]["subtotal"], ventas_crudas[0]["moneda"])
 print(total_usd)
+
+
+""" Ejercicio 5: Orquestador del pipeline """
+#1. Filtrar por el estado del negocio, tiene que estar COMPLETADO
+#2. Limpiar los nombres
+#3. Determinar el dominio
+#4. Validar la transaccion
+#5. Convertir a USD
+#6. Construir un diccionario de salida
+
+def ejecutar_pipeline(datos_ventas: list, tasa_cambio: float = 3.75):
+    ventas_limpias = []
+    
+    for venta in datos_ventas:
+        if venta["estado"] != "COMPLETADO":
+            continue
+        
+        if not es_transaccion_valida(venta["subtotal"], venta["moneda"]):
+            continue
+        
+        cliente_limpio = limpiar_nombre(venta["cliente"])
+        dominio_correo = extraer_dominio(venta["email"])
+        monto_usd = convertir_usd(venta["subtotal"], venta["moneda"], tasa_cambio)
+        
+        registro_limpio = {
+            "id_venta": venta["id_venta"],
+            "cliente": cliente_limpio,
+            "dominio": dominio_correo,
+            "total_usd": monto_usd
+        }
+        ventas_limpias.append(registro_limpio)
+    return ventas_limpias
+
+resultado_final = ejecutar_pipeline(ventas_crudas)
+for item in resultado_final:
+    print(item)
+    
+    
+    
+def ejecutar_pipeline2(datos_crudos: list[dict]):
+    
+    registros_limpios2 = []
+    descartados =0
+    monto_total = 0
+    
+    for fila in datos_crudos:
+        
+        if fila["estado"] != "COMPLETADO":
+            descartados = descartados + 1
+            continue
+        
+        if not es_transaccion_valida(fila["subtotal"], fila["moneda"]):
+            descartados = descartados + 1
+            continue
+        
+        fila["cliente"] = limpiar_nombre(fila["cliente"])
+        fila["dominio"] = extraer_dominio(fila["email"])
+        fila["subtotal"] = convertir_usd(fila["subtotal"], fila["moneda"], 3.5)
+        monto_total = monto_total + fila["subtotal"]
+        fila["moneda"] = "USD"
+        
+        registros_limpios2.append(fila)
+
+    return {
+        "data_final": registros_limpios2,
+        "registros_procesados": len(datos_crudos),
+        "registros_descartados": descartados,
+        "monto_total_usd": monto_total
+    }
+    
+from pprint import pprint   
+resultado = ejecutar_pipeline2(ventas_crudas)
+pprint(resultado)
