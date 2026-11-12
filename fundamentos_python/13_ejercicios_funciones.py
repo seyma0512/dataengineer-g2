@@ -91,5 +91,5 @@ def es_transaccion_valida(monto: float, moneda: str):
         return True
     return False
 
-resultado = es_transaccion_valida(ventas_crudas[0]["monto"], ventas_crudas[0]["moneda"])
+resultado = es_transaccion_valida(ventas_crudas[0]["subtotal"], ventas_crudas[0]["moneda"])
 print(resultado)
