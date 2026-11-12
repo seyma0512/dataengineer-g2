@@ -88,8 +88,8 @@ print(extraer_dominio(ventas_crudas[1]["email"]))
 def es_transaccion_valida(monto: float, moneda: str):
     moneda_permitidas = ("PEN", "USD")
     if monto >= 0 and moneda.upper() in moneda_permitidas:
-        return False
-    return True
+        return True
+    return False
 
 resultado = es_transaccion_valida(ventas_crudas[0]["monto"], ventas_crudas[0]["moneda"])
 print(resultado)
