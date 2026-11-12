@@ -93,3 +93,18 @@ def es_transaccion_valida(monto: float, moneda: str):
 
 resultado = es_transaccion_valida(ventas_crudas[0]["subtotal"], ventas_crudas[0]["moneda"])
 print(resultado)
+
+
+""" Ejercicio 4: Conversor de divisas con tasa configurable"""
+
+def convertir_usd(monto: float, moneda: str, tasa: float = 3.75):
+    moneda_limpia = moneda.strip().upper()
+    
+    if moneda_limpia == "PEN":
+        resultado = monto / tasa
+        return round(resultado, 2)
+    if moneda_limpia == "USD":
+        return round(monto, 2)
+
+total_usd = convertir_usd(ventas_crudas[0]["subtotal"], ventas_crudas[0]["moneda"])
+print(total_usd)
