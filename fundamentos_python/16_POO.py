@@ -10,17 +10,37 @@ class Vehiculo:
         self.marca = marca
         self.color = color
         self.modelo = modelo
+        self.__codigo = "VW001"
+        # Encapsulación
+    def ver_datos(self):
+        print(f"Ese vechiculo es de marca: {self.marca}, color: {self.color}, modelo: {self.modelo} y codigo {self.__codigo}")
         
+    def __informacion_privada(self):
+        print(f"Esta información es privada: {self.__codigo}")
+    
 camioneta = Vehiculo("Toyota", "Blanco", "Hilux")
-print(camioneta.color)
-
 coche = Vehiculo("VW", "Rojo", "Golf")
-print(coche.color)
 
-# Camioneta
-# Auto
-# Minibus
+# coche.ver_datos()
+# print(coche.__codigo)
+# coche.__informacion_privada()
 
-# VW
-# Mitsubishi
-# Toyota
+#Herencia
+class Animal:
+    def __init__(self, nombre):
+        self.nombre = nombre
+        
+    def saltar(self):
+        print(f"{self.nombre} ha saltado")
+    
+
+class Gato(Animal):
+    def maullar(self):
+        print(f"{self.nombre} dice Miau")
+
+perro = Animal("Otto")
+perro.saltar()
+
+g1 = Gato("Hiro")
+g1.maullar()
+g1.saltar()
