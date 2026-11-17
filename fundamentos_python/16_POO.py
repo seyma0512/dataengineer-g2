@@ -33,13 +33,18 @@ class Animal:
     def saltar(self):
         print(f"{self.nombre} ha saltado")
     
+    @staticmethod
+    def vacunas(mensaje):
+        print(mensaje)
+
 
 class Gato(Animal):
     def maullar(self):
         print(f"{self.nombre} dice Miau")
 
-perro = Animal("Otto")
-perro.saltar()
+p1 = Animal("Otto")
+p1.saltar()
+p1.vacunas("Las vacunas están al día")
 
 g1 = Gato("Hiro")
 g1.maullar()
