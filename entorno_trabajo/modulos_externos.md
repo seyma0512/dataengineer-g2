@@ -13,6 +13,17 @@ pip install 'nombre_del_paquete'
 pip freeze
 ```
 
+## Lista de requerimientos
+
+```bash
+pip freeze > requirements.txt
+```
+
+## Instalar lista de requerimientos
+```bash
+pip install -r requirements.txt
+```
+
 ## Entornos virtuales
 
 ### Crear el entorno virutal
