@@ -1,1 +1,3 @@
 entorno_demo/
+__pycache__/**
+*.py[cod]
