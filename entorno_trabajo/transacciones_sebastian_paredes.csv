@@ -1,0 +1,106 @@
+tx_id,user_id,cliente_referencia,email_contacto,plan,monto_mensual,estado_cuenta,fecha_registro
+TX-1047,13,Nélida Solís Gálvez, haroldo18@example.org ,Basic,  2209.83 USD ,activo,2025-11-22
+TX-1097,12,Blas Eustaquio Leon Amador,ILAGO@EXAMPLE.NET, PRO,,moroso,2026-05-02
+TX-1037,11,CORONA EMELINA PLANAS CARVAJAL,GJULIAN@EXAMPLE.COM,Enterprise,2335.55,Activo,03/11/2026
+TX-1022,3,Charo Nebot Fernández,REBECAVALLEJO@EXAMPLE.COM,enterprise,,moroso,03/04/2026
+TX-1059,12,Marc de Cuesta,BPI@EXAMPLE.NET,Pro,605.96,Suspendido,2026-01-15
+TX-1008,2,SOFÍA ORTUÑO OSUNA, felicia29@example.com ,Enterprise,2040.12,Moroso,2026-11-07
+TX-1029,12,Ricardo Iñiguez Cordero, berto64@example.com ,basic ,1103.06,Suspendido,06-May-2026
+TX-1030,10,Bernardino Arcos Morell, moranadrian@example.com ,basic ,2312.61,Cancelado,18/01/2026
+TX-1058,12,SAMANTA LAMAS MARISCAL,ALAMOVINICIO@EXAMPLE.NET,Enterprise,1765.54,N/A,09-Jul-2026
+TX-1021,11,Duilio Lasa-Chamorro, daniel60@example.com ,Pro,1601.90,activo,02/03/2026
+TX-1071,6,GRACIELA GUILLEN SOLÉ, macariamercader@example.com ,enterprise,,Cancelado,2026-03-29
+TX-1016,6,Leandro Puente-Jove,ROQUE37@EXAMPLE.COM,Basic,356.15,activo,12/05/2026
+TX-1056,5,MAYTE BELMONTE,FCONESA@EXAMPLE.COM,enterprise,2008.92,CANCELADO,19-Jan-2026
+TX-1048,12,Tomás Perez Valentín,WBERNAL@EXAMPLE.NET, PRO,2394.10,Suspendido,2026-05-13
+TX-1053,2,FERNANDA PORTA CASAL, itziarsanjuan@example.net ,Basic,  1683.37 USD ,suspendido,2026-03-21
+TX-1035,13,Pancho Oliver González,JULIEVILLALONGA@EXAMPLE.COM,Enterprise,1768.24,moroso,26-Aug-2026
+TX-1032,9,Augusto del Peralta,ADELARDO69@EXAMPLE.ORG,basic ,320.24,  Cancelado ,2026-01-31
+TX-1062,1,Alonso Anguita Álvaro, uriartejesus@example.com ,Enterprise,352.17,Suspendido,17-Aug-2026
+TX-1096,8,Hermenegildo Vilanova Sureda,HERMENEGILDOPACHECO@EXAMPLE.NET,Basic,146.28,activo,2026-03-20
+TX-1027,9,CARMELITA MIGUELA PÉREZ LILLO, blazquezpaca@example.net ,Enterprise,  2138.53 USD ,Cancelado,2026-08-21
+TX-1063,11,Vanesa Diez Molina, gaguilera@example.org , PRO,1172.67,cancelado,29/08/2026
+TX-1011,12,TANIA MODESTA MARQUEZ BORJA,ELVIRAARINO@EXAMPLE.ORG,Pro,1695.33,  Activo ,08/10/2026
+TX-1004,11,Jordana Tirado Lago, dominguezponcio@example.com ,basic ,1907.92,cancelado,11-Aug-2026
+TX-1080,2,Macaria Gomis,LEONVILANOVA@EXAMPLE.ORG,basic ,1383.25,moroso,02/11/2026
+TX-1089,8,Belén Castells Abella, vito76@example.com ,Basic,1339.48,ACTIVO,13/05/2026
+TX-1084,5,HERMINIO GABALDÓN-ARAGONÉS, bermudezlucila@example.net ,Pro,2108.95,Suspendido,24-Sep-2026
+TX-1085,7,CRUZ BADÍA PANIAGUA, muresteban@example.net ,Pro,"$1,151.32",Cancelado,24/10/2026
+TX-1073,5,LORENA GAYA IBARRA,GUTIERREZDORITA@EXAMPLE.ORG, PRO,  1147.19 USD ,moroso,25-Feb-2026
+TX-1034,2,Gregorio Nadal Soriano,FERNANDEZELADIO@EXAMPLE.ORG,Enterprise,174.28,Activo,2026-06-04
+TX-1013,13,Amarilis Dominguez Prats,QECHEVARRIA@EXAMPLE.NET,basic ,-721.38,Cancelado,12-Oct-2026
+TX-1077,11,IRENE CRESPI TAPIA,MHIGUERAS@EXAMPLE.COM,Basic,  840.78 USD ,moroso,31/03/2026
+TX-1097,12,Blas Eustaquio Leon Amador,ILAGO@EXAMPLE.NET, PRO,,moroso,2026-05-02
+TX-1078,10,Octavia Paniagua Herrero, glaucooliver@example.net ,basic ,,ACTIVO,12-Aug-2026
+TX-1099,2,LOPE CARMELO VIÑAS SALA,IMANJON@EXAMPLE.COM,basic ,$659.69,ACTIVO,2026-03-27
+TX-1057,8,Jerónimo Lobo Tormo, romeuale@example.net ,enterprise,  1496.17 USD ,MOROSO,19-Sep-2026
+TX-1017,5,JOVITA ASENSIO ARROYO, fpadilla@example.net ,Enterprise,-567.90,CANCELADO,23-Jul-2026
+TX-1019,13,MAITE DEL GIBERT, mayteverdejo@example.org ,Basic,606.77,cancelado,15-Apr-2026
+TX-1007,4,OCTAVIA RÓDENAS SANTIAGO, rosarioabad@example.net ,basic ,1494.09,  Suspendido ,15-Oct-2026
+TX-1052,13,TRISTÁN MANCEBO, grodriguez@example.com ,Pro,  2311.25 USD ,Moroso,29/01/2026
+TX-1033,7,MARICELA PUJADAS CARRETERO, adolfomir@example.net ,Enterprise,,Moroso,17/04/2026
+TX-1065,5,Virgilio Amílcar Pino Capdevila, bermejolola@example.net ,basic ,2401.56,moroso,19/12/2025
+TX-1015,13,Manu Torrent Campillo,MACARENA11@EXAMPLE.NET, PRO,1415.82,Suspendido,2026-10-09
+TX-1025,7,Ruben Asenjo Galán,TORRENSJOSE-FRANCISCO@EXAMPLE.ORG,enterprise,"$1,807.11",MOROSO,2026-08-06
+TX-1012,10,JUANITO HIERRO SOLER,JCASES@EXAMPLE.ORG,Basic,"$1,108.16",  Activo ,07-May-2026
+TX-1060,6,Nerea Landa Botella,AUREAPEREZ@EXAMPLE.NET,enterprise,,Moroso,2026-04-20
+TX-1095,3,Amílcar Millán Cañete,GOYO27@EXAMPLE.ORG, PRO,  557.04 USD ,activo,2026-03-25
+TX-1087,13,Itziar Candelas Gisbert Losada,RENATA77@EXAMPLE.ORG,basic ,1496.75,moroso,15/03/2026
+TX-1082,9,Beatriz Pascual Abascal, amadorasenjo@example.net ,Basic,1557.83,Suspendido,14/03/2026
+TX-1051,9,Paloma Salmerón, solarosalva@example.org ,Basic,1290.73,Cancelado,01/06/2026
+TX-1081,6,Emma del Saavedra,ROQUECUENCA@EXAMPLE.NET,basic ,$709.73,  Activo ,2026-09-30
+TX-1049,6,HERMINIA VALENCIA, gala51@example.org , PRO,"$1,666.64",Moroso,2026-05-29
+TX-1045,1,Bernarda Blanch Martínez,HPERA@EXAMPLE.COM, PRO,2142.71,Activo,01-Dec-2025
+TX-1014,1,BRUNO LUZ MONTALBÁN, juarezrosario@example.net ,Basic,1190.23,suspendido,2025-12-18
+TX-1072,,MATEO VALENTÍN BERNAT, carballoana-belen@example.com ,enterprise,  1316.58 USD ,Suspendido,17/10/2026
+TX-1090,9,Amarilis Egea Arana,VISITACION80@EXAMPLE.ORG, PRO,,Moroso,2025-12-08
+TX-1067,12,INÉS BLANCA PASTOR, mtejera@example.org , PRO,1634.38,  Cancelado ,16-Aug-2026
+TX-1092,,Micaela Malena Rincón Campo,EREBOLLO@EXAMPLE.COM,Enterprise,870.86,Suspendido,24/07/2026
+TX-1088,1,Odalis Fonseca, marinariel@example.com ,Basic,1781.01,suspendido,09/11/2026
+TX-1043,5,EMILIANO SARABIA-VALENTÍN, roldanfeliciano@example.org ,Basic,"$1,366.05",Cancelado,08-Aug-2026
+TX-1006,10,Cecilia Bru Bonet,NOEMIDOMENECH@EXAMPLE.ORG,basic ,2113.28,Moroso,17/05/2026
+TX-1085,7,CRUZ BADÍA PANIAGUA, muresteban@example.net ,Pro,"$1,151.32",Cancelado,24/10/2026
+TX-1018,13,Paula Cerdán Lledó,VERONICABUSTAMANTE@EXAMPLE.ORG,Enterprise,,activo,2026-10-27
+TX-1036,2,Adán Alfaro, zamoraponcio@example.net ,Basic,,Cancelado,11/08/2026
+TX-1001,8,Nuria Atienza Camps, liliareyes@example.org ,enterprise,"$2,048.40",  Cancelado ,20-Aug-2026
+TX-1024,6,Eligia Sanjuan Farré, canetmartin@example.net ,enterprise,700.69,Suspendido,14-Dec-2025
+TX-1044,3,JUAN PABLO ROSADO LANDA, regulomercader@example.net ,basic ,1712.40,cancelado,25-Sep-2026
+TX-1100,8,Goyo Llabrés Adán,ODALYS59@EXAMPLE.ORG,basic ,2269.24,Moroso,03-Sep-2026
+TX-1026,2,Pía Nevado Rivas, belmonteemilia@example.com , PRO,  157.11 USD ,suspendido,2026-10-02
+TX-1028,2,PASCUAL GUZMAN-PANIAGUA, emperatrizarranz@example.com ,Basic,2210.53,Moroso,2025-11-29
+TX-1093,2,Marcos Carretero-Gimeno,ZACARIAS75@EXAMPLE.NET,enterprise,1297.32,N/A,23-Sep-2026
+TX-1094,1,Úrsula Miriam Galván Gallego,NMURCIA@EXAMPLE.NET,Basic,1392.15,  Moroso ,19/03/2026
+TX-1032,9,Augusto del Peralta,ADELARDO69@EXAMPLE.ORG,basic ,320.24,  Cancelado ,2026-01-31
+TX-1054,10,LIGIA SANTOS PINEDO, mpareja@example.net ,Pro,708.50,  Activo ,04-Nov-2026
+TX-1042,8,Eliana Lucas Esteban, diegovara@example.com ,Enterprise,2415.20,  Cancelado ,26-Jun-2026
+TX-1096,8,Hermenegildo Vilanova Sureda,HERMENEGILDOPACHECO@EXAMPLE.NET,Basic,146.28,activo,2026-03-20
+TX-1002,1,María Cristina Aragón Pascual, vbusquets@example.com ,Enterprise,"$1,789.53",ACTIVO,2026-02-21
+TX-1061,12,TADEO BERNAD ARAMBURU, solanoluisina@example.org ,basic ,-457.64,Activo,2026-05-02
+TX-1079,1,Alma Galvez León, emigdioblasco@example.org , PRO,-1778.70,activo,29-Mar-2026
+TX-1023,1,YOLANDA PRADO-COBO,AZENETHPEDRO@EXAMPLE.ORG,Enterprise,  471.60 USD ,Suspendido,07/06/2026
+TX-1087,13,Itziar Candelas Gisbert Losada,RENATA77@EXAMPLE.ORG,basic ,1496.75,moroso,15/03/2026
+TX-1075,11,Adán Villalonga Goicoechea, manuelvictor@example.net ,basic ,874.10,cancelado,22/10/2026
+TX-1010,3,Valero Muro Toro, salomoncapdevila@example.net ,Basic,1146.74,Suspendido,29/10/2026
+TX-1074,2,Mercedes Almudena Solsona Abascal, jose-manuelvendrell@example.com ,Basic,883.37,activo,2026-10-12
+TX-1086,8,Berta del Frutos, kaleman@example.net ,basic ,613.39,activo,08/08/2026
+TX-1005,2,Primitiva Rubio Casado,WMILLA@EXAMPLE.NET, PRO,2175.32,CANCELADO,2026-09-09
+TX-1070,12,Luz de Valderrama, zacarias37@example.net ,Enterprise,556.05,  Suspendido ,19-May-2026
+TX-1003,3,Beatriz Barrena-Dávila, fabricioperalta@example.org ,Enterprise,283.33,  Activo ,29/09/2026
+TX-1031,5,VALENTINA PARRA GUILLEN,ASUNCIONPATINO@EXAMPLE.ORG, PRO,2178.61,  Moroso ,30/10/2026
+TX-1041,13,Lidia Aranda, emercader@example.net ,Pro,-2428.59,ACTIVO,2026-05-25
+TX-1098,4,Pedro Vendrell Soriano,PARDOEMILIANO@EXAMPLE.NET, PRO,  207.33 USD ,Moroso,07-May-2026
+TX-1055,,Elpidio Rosell Fortuny,HDONOSO@EXAMPLE.NET,Enterprise,2123.92,Cancelado,10/12/2025
+TX-1083,5,Hector Expósito Roma, glaucocisneros@example.com , PRO,  810.49 USD ,  Cancelado ,19-Nov-2026
+TX-1091,4,Zaira Crespi Reguera, rebollotadeo@example.org ,basic ,916.12,Moroso,2026-08-30
+TX-1068,13,CLEMENTE DEL NÚÑEZ,MZURITA@EXAMPLE.COM,enterprise,768.61,Moroso,20-Aug-2026
+TX-1064,9,Jonatan Andres Sala, aragonpili@example.org ,enterprise,  1868.49 USD ,CANCELADO,2026-08-03
+TX-1040,12,Maxi Gaya-Gascón, zrivas@example.net ,Enterprise,  1311.70 USD ,ACTIVO,20/05/2026
+TX-1076,1,ISABELA ENCARNACION CATALÁN BECERRA, ibartolome@example.com , PRO,,  Suspendido ,18-Jul-2026
+TX-1046,2,Sonia Fajardo Santana,CARRASCOAMBAR@EXAMPLE.COM,basic ,654.92,activo,01/12/2025
+TX-1038,3,Yago Carnero Anaya, abelrodrigo@example.net ,basic ,,SUSPENDIDO,29/10/2026
+TX-1009,,Jerónimo de Bayón, nataliasanchez@example.com ,Basic,518.43,Suspendido,2026-09-05
+TX-1050,7,BERNABÉ PULIDO ROLDAN, alexandravalles@example.net ,enterprise,410.12,N/A,07-Mar-2026
+TX-1020,7,GUADALUPE DE GALÁN, noebenet@example.org , PRO,517.60,  Activo ,09-Nov-2026
+TX-1069,13,Baudelio Pacheco Pinto, albertluis@example.org ,Pro,2266.90,  Moroso ,2025-12-06
+TX-1066,9,Pía Atienza, gema95@example.org ,Basic,425.32,Activo,2026-03-27
+TX-1039,8,Ariadna Diego Sanmartín, vgamez@example.org ,basic ,  2104.37 USD ,Suspendido,21/05/2026
